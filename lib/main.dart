@@ -41,20 +41,25 @@ class MainPage extends StatelessWidget {
         
       ),
       body: Container(
+        
         child: Container (
-          decoration: BoxDecoration(gradient: LinearGradient(colors: <Color> [
-            Colors.deepOrange,
-            Colors.lightGreen
-          ])),
-
-        ),
         width: lebar / 1,
         height: tinggi / 1,
         padding: EdgeInsets.fromLTRB(5, 15, 5, 15),
         margin: EdgeInsets.all(5),
         alignment: Alignment.center,
-        
+        child: const Text(
+          "Rayhan Zidane Achmad \n 1915016049", 
+          textAlign: TextAlign.center,
+          style: TextStyle(color: Colors.black, fontSize: 22, fontWeight: FontWeight.bold ),),
+        decoration: BoxDecoration(gradient: LinearGradient(colors: <Color> [
+            Colors.deepOrange,
+            Colors.lightGreen
+          ])),
+       
+        ),
         decoration: BoxDecoration(
+          
           color: Colors.white60,
           
           border: Border.all(
